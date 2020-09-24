@@ -1,10 +1,17 @@
-POST http://localhost:80/hand
+POST http://localhost:8080/test
 Content-Type: application/x-www-form-urlencoded
 
 id=99&content=new-element
 
 ###
-GET http://localhost:80/api/15
+
+POST http://localhost:8080/get-by-id
+Content-Type: application/x-www-form-urlencoded
+
+id=99&content=new-element
+
+###
+GET http://localhost:8080/api/15
 Accept: application/json
 
 ###
