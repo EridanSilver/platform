@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	app "github.com/EridanSilver/platform/settings/access/cmd/platform/app"
+	app "github.com/EridanSilver/platform/cmd/platform/app"
 )
 
 func main() {

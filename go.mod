@@ -1,4 +1,4 @@
-module github.com/EridanSilver/platform/settings/access
+module github.com/EridanSilver/platform
 
 go 1.14
 
