@@ -2,7 +2,8 @@ package main
 
 import (
 	"context"
-	app "github.com/EridanSilver/platform/cmd/platform/app"
+
+	"github.com/EridanSilver/platform/app"
 )
 
 func main() {
@@ -10,6 +11,6 @@ func main() {
 
 	application := app.NewApp()
 	if err := application.Run(ctx); err != nil {
-		panic("panic")
+		panic(err)
 	}
 }
